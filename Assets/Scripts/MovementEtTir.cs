@@ -28,9 +28,9 @@ public class MovementEtTir : MonoBehaviour
         {
             transform.position += Vector3.right*speed;
         }
-        
 
-        if(transform.position.x < limitL.position.x)
+
+        if (transform.position.x < limitL.position.x)
         {
             transform.position = new Vector3(limitR.position.x, transform.position.y, transform.position.z);
         }
